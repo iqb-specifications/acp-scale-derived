@@ -2,7 +2,7 @@
 
 Assessment Content Specifications
 
-**Scale** as ruleset for calculation performance indicators of testees.
+**Scale** as ruleset for calculation performance indicators of testees. A derived scale processes values from other scales.
 
 Read more:
 
