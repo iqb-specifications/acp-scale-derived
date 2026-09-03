@@ -1,0 +1,21 @@
+{
+  "id": "aggregated.sum-global",
+  "name": [
+    {
+      "lang": "de",
+      "value": "Summieren von Subskalen"
+    }
+  ],
+  "description": [
+    {
+      "lang": "de",
+      "value": "Demo-Skala für das Summieren der Itemsummen aus Subskalen zu einem globalen Skalenwert."
+    }
+  ],
+  "method": "SUM",
+  "sources": [
+    "fcs.subscale1",
+    "fcs.subscale2",
+    "fcs.subscale3"
+  ]
+}

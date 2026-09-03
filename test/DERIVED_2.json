@@ -1,0 +1,126 @@
+{
+  "id": "derived2.comp-level",
+  "name": [
+    {
+      "lang": "de",
+      "value": "Kompetenzstufen Ma-P-GM"
+    }
+  ],
+  "description": [
+    {
+      "lang": "de",
+      "value": "Demo-Skala zur Ableitung einer Kompetenzstufe für das Fach Mathematik Primarstufe Globalmodell."
+    }
+  ],
+  "method": "MAP",
+  "sources": [
+    "base2.wle"
+  ],
+  "publicVocabularyUrl": "https://w3id.org/iqb/v71/mp1/",
+  "mappings": [
+    {
+      "method": "MIN",
+      "parameters": [
+        "600"
+      ],
+      "newValue": {
+        "value": 5,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Stufe V"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": "Modellierung komplexer Probleme unter selbstständiger Entwicklung geeigneter Strategien"
+          }
+        ],
+        "publicVocabularyEntry": "p2p"
+      }
+    },
+    {
+      "method": "MIN",
+      "parameters": [
+        "530"
+      ],
+      "newValue": {
+        "value": 4,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Stufe IV"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": "sicheres und flexibles Anwenden von begrifflichem Wissen und Prozeduren im curricularen Umfang"
+          }
+        ],
+        "publicVocabularyEntry": "c2q"
+      }
+    },
+    {
+      "method": "MIN",
+      "parameters": [
+        "460"
+      ],
+      "newValue": {
+        "value": 3,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Stufe III"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": "einfache Anwendungen von Grundlagenwissen (Routineprozeduren in einem klar strukturierten Kontext)"
+          }
+        ],
+        "publicVocabularyEntry": "a5v"
+      }
+    },
+    {
+      "method": "MIN",
+      "parameters": [
+        "390"
+      ],
+      "newValue": {
+        "value": 2,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Stufe II"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": "einfache Anwendungen von Grundlagenwissen (Routineprozeduren in einem klar strukturierten Kontext)"
+          }
+        ],
+        "publicVocabularyEntry": "e3y"
+      }
+    }
+  ],
+  "mappingsElse": {
+    "value": 1,
+    "label": [
+      {
+        "lang": "de",
+        "value": "Stufe I"
+      }
+    ],
+    "description": [
+      {
+        "lang": "de",
+        "value": "technische Grundlagen (Routineprozeduren auf Grundlage einfachen begrifflichen Wissens)"
+      }
+    ],
+    "publicVocabularyEntry": "a9d"
+  }
+}

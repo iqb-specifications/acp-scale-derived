@@ -1,0 +1,75 @@
+{
+  "id": "derived1.percent-ranking",
+  "name": [
+    {
+      "lang": "de",
+      "value": "Prozentrang"
+    }
+  ],
+  "description": [
+    {
+      "lang": "de",
+      "value": "Demo-Skala zur Ableitung eines Prozentranges."
+    }
+  ],
+  "method": "MAP",
+  "sources": [
+    "base1.fcr"
+  ],
+  "mappings": [
+    {
+      "method": "MIN",
+      "parameters": [
+        "75"
+      ],
+      "newValue": {
+        "value": 80,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Beste Leistung"
+          }
+        ]
+      }
+    },
+    {
+      "method": "MIN",
+      "parameters": [
+        "50"
+      ],
+      "newValue": {
+        "value": 65,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Gute Leistung"
+          }
+        ]
+      }
+    },
+    {
+      "method": "MIN",
+      "parameters": [
+        "25"
+      ],
+      "newValue": {
+        "value": 45,
+        "label": [
+          {
+            "lang": "de",
+            "value": "Akzeptable Leistung"
+          }
+        ]
+      }
+    }
+  ],
+  "mappingsElse": {
+    "value": 0,
+    "label": [
+      {
+        "lang": "de",
+        "value": "Nicht ausreichend"
+      }
+    ]
+  }
+}

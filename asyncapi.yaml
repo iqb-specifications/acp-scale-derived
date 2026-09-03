@@ -1,0 +1,24 @@
+asyncapi: 3.0.0
+id: "urn:iqb-specifications:acp-scale-derived"
+defaultContentType: application/json
+info:
+  title: "acp-scale-derived"
+  description: "Specification for assessment content package: Derived Scale."
+  license:
+    name: CC0 1.0
+    url: https://creativecommons.org/publicdomain/zero/1.0/
+  version: " - click on schema id to expand"
+  contact:
+    name: Home of iqb-specifications (German only)
+    url: https://iqb-specifications.github.io/
+channels:
+  iqb_data_structures:
+    address: iqb_data_structures
+    messages:
+      select_schema:
+        payload:
+          $ref: "#/components/schemas/acp-scale-derived"
+components:
+  schemas:
+    acp-scale-derived:
+      $ref: "acp-scale-derived.schema.json"
