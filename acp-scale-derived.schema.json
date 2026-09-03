@@ -32,7 +32,7 @@
         "MEAN",
         "MAP"
       ],
-      "default": "SUM"
+      "default": "MAP"
     },
     "publicVocabularyUrl": {
       "description": "Url of a public vocabulary matching this scale.",
