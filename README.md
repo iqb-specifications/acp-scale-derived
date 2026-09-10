@@ -8,8 +8,6 @@ Read more:
 
 * [All specifications of IQB](https://iqb-specifications.github.io/) (German only)
 * [Learn about TBA](https://iqb-berlin.github.io/tba-info/) (German only)
-* [Learn about StarS](https://iqb-berlin.github.io/rising-stars/) (German only)
-* [Verona-Interfaces](https://verona-interfaces.github.io/)
 
 Change log see releases.
 
