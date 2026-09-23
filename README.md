@@ -9,7 +9,7 @@ Read more:
 * [All specifications of IQB](https://iqb-specifications.github.io/) (German only)
 * [Learn about TBA](https://iqb-berlin.github.io/tba-info/) (German only)
 
-Change log: See releases.
+Change log see releases.
 
 # Erläuterung der Spezifikation
 
