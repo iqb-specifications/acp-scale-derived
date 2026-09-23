@@ -44,5 +44,7 @@ jobs:
   notify:
     needs: deploy-build
     if: github.event_name != 'pull_request'
+    permissions:
+      contents: write
     uses: iqb-specifications/iqb-specifications.github.io/.github/workflows/publish.yml@main
     secrets: inherit
